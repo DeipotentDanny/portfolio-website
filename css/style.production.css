@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
-* Browsers: last 4 version
+* Browsers: last 2 version
 */
 
 * {
@@ -62,14 +62,13 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #800000;
+  background-color: #00819f;
   color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -79,14 +78,13 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #800000;
+  background-color: #00819f;
   color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
