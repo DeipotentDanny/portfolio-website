@@ -9,6 +9,7 @@
   --background-color: #E4F6FB;
   --basic-font-size: 18px;
   --basic-font-weight: 400;
+  --border-color: black;
   --button-color: #00819f;
   --grid-bg-color: WhiteSmoke;
   --header-border-color: WhiteSmoke;
@@ -260,6 +261,8 @@ button:hover, button:focus, .button:hover, .button:focus {
     min-height: auto;
     margin: 0;
     border-radius: 10px;
+    border: solid var(--border-color) 1px;
+    text-align: center;
   }
   .grid__item:last-child {
     grid-column: 3/3;
