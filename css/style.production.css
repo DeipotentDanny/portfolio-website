@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
-* Browsers: last 2 version
+* Browsers: last 4 version
 */
 
 * {
@@ -69,6 +69,7 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -85,6 +86,7 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -299,9 +301,18 @@ button:hover, button:focus, .button:hover, .button:focus {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.submit-button:hover, .submit-button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none;
 }
 
 .grid__item {
