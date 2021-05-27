@@ -14,6 +14,7 @@
   --grid-bg-color: WhiteSmoke;
   --header-border-color: WhiteSmoke;
   --header-padding: 50px;
+  --semibold-font-weight: 700;
   --sun-primary-color: #EDC655;
   --sun-secondary-color: #fcffad;
   --sun-tertiary-color: #f76414;
@@ -35,18 +36,18 @@ body {
 /* In General */
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: var(--semibold-font-weight);
   text-align: center;
 }
 
 h2 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: var(--semibold-font-weight);
 }
 
 h3 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: var(--semibold-font-weight);
 }
 
 a {
