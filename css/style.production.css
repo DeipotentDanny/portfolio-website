@@ -11,11 +11,12 @@
 }
 
 body {
-  font-family: 'Josefin Sans' , sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  background-color: #E4F6FB;
+  background-color: #e4f6fb;
+
   /* Background Img */
   background-image: url("../img/WebDevBG.png");
   background-position: center;
@@ -47,15 +48,16 @@ a {
 }
 
 a:visited {
-  color: #3100A3;
+  color: #3100a3;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
 a:active {
-  color: #483D8B;
+  color: #483d8b;
 }
 
 button {
@@ -92,13 +94,17 @@ button {
           box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
   cursor: pointer;
   opacity: 0.8;
   -webkit-box-shadow: none;
           box-shadow: none;
   text-decoration: none;
 }
+
 /* for button secondary
 .button__secondary {
   background-color: #e0b354;
@@ -167,7 +173,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
-  padding: 50px; /*to be adjusted*/
+  padding: 50px; /* to be adjusted */
 }
 
 /* About Me Page */
@@ -175,7 +181,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-  padding: 50px; /*to be adjusted*/
+  padding: 50px; /* to be adjusted */
 }
 
 .graphics {
@@ -189,11 +195,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 @-webkit-keyframes color-change {
   0% {
-    fill: #EDC655;
+    fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -201,11 +209,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 @keyframes color-change {
   0% {
-    fill: #EDC655;
+    fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -216,6 +226,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     -webkit-transform: translate(0, 50px);
             transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
@@ -227,6 +238,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     -webkit-transform: translate(0, 50px);
             transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
@@ -238,6 +250,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     -webkit-transform: translate(446px, 48px);
             transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
@@ -249,6 +262,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     -webkit-transform: translate(446px, 48px);
             transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
@@ -256,11 +270,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .sun {
-  /*animation-duration: 4s;
+  /* animation-duration: 4s;
   animation-name: color-change;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-timing-function: linear;*/
+  animation-timing-function: linear; */
   -webkit-animation: 4s color-change infinite alternate linear;
           animation: 4s color-change infinite alternate linear;
 }
@@ -280,7 +294,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
-  padding: 50px; /*to be adjusted*/
+  padding: 50px; /* to be adjusted */
 }
 
 .contact-page__item {
@@ -307,7 +321,8 @@ button:hover, button:focus, .button:hover, .button:focus {
           box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-.submit-button:hover, .submit-button:focus {
+.submit-button:hover,
+.submit-button:focus {
   cursor: pointer;
   opacity: 0.8;
   -webkit-box-shadow: none;
@@ -325,8 +340,8 @@ button:hover, button:focus, .button:hover, .button:focus {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 50px; /*to be adjusted*/
-  padding-bottom: 20px; /*to be adjusted*/
+  padding-top: 50px; /* to be adjusted */
+  padding-bottom: 20px; /* to be adjusted */
 }
 
 @supports (display: grid) {
@@ -338,6 +353,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     grid-gap: 20px;
     margin: 0;
   }
+
   .grid__item {
     background-color: WhiteSmoke;
     width: auto;
@@ -347,6 +363,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     border: solid black 1px;
     text-align: center;
   }
+
   .grid__item:last-child {
     -ms-grid-column: 3;
     grid-column: 3/3;
@@ -374,10 +391,12 @@ button:hover, button:focus, .button:hover, .button:focus {
   .grid {
     grid-gap: 10px;
   }
+
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
   h1 {
     font-size: 22px;
   }
